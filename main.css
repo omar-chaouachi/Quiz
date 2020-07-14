@@ -1,0 +1,73 @@
+body{
+	font-family: 'Roboto Slab', serif;
+	background: pink;
+}
+
+.container{
+	height: 370px;
+	width: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: #DC134C;
+	padding: 25px;
+	border: 2px solid white;
+}
+
+.title{
+	padding-top: 22px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+
+.question{
+	padding: 20px;
+	font-size: 22px;
+	background: pink;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	color: black;
+}
+
+.option{
+	width: 300px;
+	display: inline-block;
+	padding:  10px 0 10px 10px;
+	vertical-align: middle;
+	background: pink;
+	margin: 10px 0 10px 10px;
+	border-radius: 22px;
+}
+
+.option:hover{
+	background: #CD5C5C;
+	color: black;
+}
+
+.next-btn{
+	background: rgba(255, 25, 255, 0.5);
+	width: 120px;
+	height: 40px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: right;
+	margin: 12px;	
+}
+
+.next-btn:hover{
+	background: white;
+	color: black;
+}
+
+.result{
+	height: 120px;
+	text-align: center;
+	font-size: 85;
+}
+
+.option input:checked .option{
+	background: #CD5C5C
+}
+
